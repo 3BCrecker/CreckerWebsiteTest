@@ -1,0 +1,55 @@
+<head>
+    <script>
+        function setbackgroundcolorred() {
+            document.body.style.backgroundColor = "Red";
+        }
+        function setbackgroundcolorwhite() {
+            document.body.style.backgroundColor = "White";
+        }
+    </script>
+    <script>
+        function printscrolled(){
+            print("Scrolled.")
+        }
+        function topcoolfunction(){
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <style type="text/css">  
+        .btn{
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        background: #1e90ff;
+        width: 160px;
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    </style>
+    <body>
+        <button onclick="console.log('Pressed!')" ">Wassup</button>
+        <button onclick="setbackgroundcolorred(), console.log('Background color: red')" ">Background color red</button>
+        <button onclick="setbackgroundcolorwhite(), console.log('Background color: default white')" ">Background color white</button>
+        <h1>H1.</h1>
+        <h2>H2</h2>
+        <h3>H3</h3>
+        <H4>H4</H4>
+        <H5>H5</H5>
+        <H6>H6</H6>
+        <img src="http://www.flexibleproduction.com/wp-content/uploads/2017/06/test-intelligenza-sociale.jpg" alt="http://www.flexibleproduction.com/wp-content/uploads/2017/06/test-intelligenza-sociale.jpg">
+        <img src="https://i.pinimg.com/originals/c0/33/5e/c0335e8db57d59888862b4d1ed099af9.gif" alt="https://i.pinimg.com/originals/c0/33/5e/c0335e8db57d59888862b4d1ed099af9.gif">
+        <h1>Testin'</h1>
+        <div class="btn" onclick="console.log('.BTN TEST CLICKED!')">.BTN Test</div>
+        <button class="btn" onclick="topcoolfunction()">Go top this button has different style</button>
+        <h2>that button with different style seems weird</h2>
+
+        <button onclick="topcoolfunction()">Go top</button>
+    </body>
+</head>
